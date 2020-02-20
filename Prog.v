@@ -52,7 +52,7 @@ Section Prog.
       intuition auto.
   Defined.
 
-  Hint Constructors exec.
+  Hint Constructors exec : core.
 
   Ltac inv_existT :=
     match goal with
